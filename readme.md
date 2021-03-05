@@ -94,6 +94,7 @@ return user;
 
 #### 1 – if you have already created profilepic  cloumn then then run this command in sql workbench
 ```
-alter table table_name modugy profilepic longtext
+use database_name
+alter table table_name modify profilepic longtext
 ```
 
